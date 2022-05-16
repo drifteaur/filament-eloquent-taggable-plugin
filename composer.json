@@ -1,16 +1,16 @@
 {
-    "name": "filament/spatie-laravel-tags-plugin",
-    "description": "Filament support for `spatie/laravel-tags`.",
+    "name": "drifteaur/filament-eloqueant-taggable-plugin",
+    "description": "Filament support for `cviebrock/eloquent-taggable`.",
     "license": "MIT",
-    "homepage": "https://github.com/laravel-filament/filament",
+    "homepage": "https://github.com/drifteaur/filament-eloquent-taggable-plugin",
     "support": {
-        "issues": "https://github.com/laravel-filament/filament/issues",
-        "source": "https://github.com/laravel-filament/filament"
+        "issues": "https://github.com/drifteaur/filament-eloquent-taggable-plugin/issues",
+        "source": "https://github.com/drifteaur/filament-eloquent-taggable-plugin"
     },
     "require": {
         "php": "^8.0",
         "illuminate/database": "^8.6|^9.0",
-        "spatie/laravel-tags": "^4.0"
+        "cviebrock/eloquent-taggable": "^9.0"
     },
     "autoload": {
         "psr-4": {

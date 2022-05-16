@@ -7,17 +7,17 @@ This guide assumes that you've already set up your model attach tags as per [Spa
 To use the tags column:
 
 ```php
-use Filament\Tables\Columns\SpatieTagsColumn;
+use Filament\Tables\Columns\EloquentTagsColumn;
 
-SpatieTagsColumn::make('tags'),
+EloquentTagsColumn::make('tags'),
 ```
 
 Optionally, you may pass a `type()`:
 
 ```php
-use Filament\Tables\Columns\SpatieTagsColumn;
+use Filament\Tables\Columns\EloquentTagsColumn;
 
-SpatieTagsColumn::make('tags')->type('categories'),
+EloquentTagsColumn::make('tags')->type('categories'),
 ```
 
 The [type](https://spatie.be/docs/laravel-tags/advanced-usage/using-types) allows you to group tags into collections.
